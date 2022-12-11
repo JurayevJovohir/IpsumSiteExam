@@ -1,0 +1,128 @@
+.news {
+    margin: 0 0 120px;
+}
+
+.news__top {
+    margin: 0 0 80px;
+}
+
+.news__title {
+    margin: 0 0 16px;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    color: #211F25;
+}
+
+.news__text {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 17.7778px;
+    line-height: 150%;
+    color: #3D3A41;
+}
+
+.news__link {
+    margin-left: auto;
+    padding: 16px 28px;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 15.8025px;
+    color: #FF007A;
+    border: 0.987654px solid #FF007A;
+    border-radius: 32px;
+    transition: all 0.2s all;
+
+    &:hover {
+        border: 0.987654px solid #FF007A;
+        background: #FF007A;
+        color: #FFFFFF;
+        transition: all 0.2s all;
+    }
+}
+
+.news__item {
+    background-color: var(--software-bg-color);
+    transition: all 0.2s ease;
+    border-radius: 8px;
+    background-image: url('../../../images/NewsImg-min.png');
+    background-repeat: no-repeat;
+
+    &:nth-child(2) {
+        background-image: url('../../../images/NewsImg2-min.png');
+    }
+
+    &:nth-child(3) {
+        background-image: url('../../../images/NewsImg3-min.png');
+    }
+
+    &:hover {
+        background-color: var(--news-bg-color);
+        box-shadow: 0px 4px 14px #CDE3EF;
+        transition: all 0.2s ease;
+    }
+}
+
+.news__contents {
+    padding: 320px 23px 31px;
+}
+
+.news__category {
+    margin: 0 0 20px;
+}
+
+.news__category__link {
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 13.6585px;
+    line-height: 150%;
+    color: var(--text-color);
+    background: var(--software-bg-color);
+}
+
+.news__category__time {
+    margin: 0 0 0 15px;
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 13.6585px;
+    line-height: 150%;
+    color: var(--text-color);
+}
+
+
+.news__content {
+    max-width: 360px;
+}
+
+.news__content__title {
+    margin: 0 0 8px;
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 23.4146px;
+    line-height: 140%;
+    color: var(--text-color);
+}
+
+.news__content__text {
+    margin: 0 0 31px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15.6098px;
+    line-height: 150%;
+    color: var(--text-color-2);
+}
+
+.news__bottom__link {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 15.6098px;
+    line-height: 150%;
+    color: #FF007A;
+
+    &:hover{
+        color: #FF007A;
+        opacity: 0.5;
+    }
+}

@@ -1,0 +1,93 @@
+.protection {
+    margin: 0 0 100px;
+}
+
+.protection-active {
+    padding: 100px 0 100px;
+    background: var(--protection-bg);
+}
+
+.protection__left {
+    max-width: 624px;
+}
+
+.protection__img{
+    max-width: 620px;
+}
+
+.protection__title {
+    margin: 0 0 16px;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    color: var(--text-color);
+}
+
+.protection__text {
+    margin: 0 0 57px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    letter-spacing: 0.02em;
+    color: var(--text-color-2);
+}
+
+.protection__link {
+    padding: 17.5px 53px;
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 155%;
+    letter-spacing: 0.01em;
+    color: #FF007A;
+    border: 1px solid #FF007A;
+    filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
+    border-radius: 32px;
+    transition: all 0.2s ease;
+
+    &:hover{
+        background: #FF007A;
+        color: #FFFFFF;
+        transition: all 0.2s ease;
+    }
+}
+
+.protection-bottom {
+    padding: 100px 0 100px;
+    flex-direction: row-reverse;
+}
+
+@media only screen and (max-width:576px) {
+
+    .protection-active,.protection-bottom{
+        padding: 30px 0 83px;
+    }
+
+    .protection-top{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .protection-bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .protection__img{
+        max-width: 332px;
+    }
+
+    .protection__title{
+        font-size: 38px;
+    }
+
+    .protection__text{
+        font-size: 16px;
+    }
+}

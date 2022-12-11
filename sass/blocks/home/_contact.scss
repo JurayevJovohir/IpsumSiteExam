@@ -1,0 +1,81 @@
+.contact {
+    margin: 0 0 120px;
+    padding: 112px 0;
+    background: var(--contact-bg);
+}
+
+.contact__title {
+    margin: 0 0 24px;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+
+.contact__text {
+    margin: 0 0 44px;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contact-form {
+    margin: 0 0 16px;
+}
+
+.contact__input {
+    display: block;
+    width: 375px;
+    padding: 14px 28px;
+    background: #FFFFFF;
+    border-radius: 32px;
+}
+
+.contact__input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #505050;
+}
+
+.contact-btn {
+    margin: 0 0 0 16px;
+    padding: 16px 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--software-bg-color);
+    background: #FF007A;
+    border-radius: 32px;
+    transition: all 0.2s ease;
+
+    &:hover {
+        border: 1px solid #FF007A;
+        color: #FF007A;
+        transition: all 0.2s ease;
+    }
+}
+
+.contact__bottom__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+
+    & a {
+        text-decoration: underline;
+    }
+}

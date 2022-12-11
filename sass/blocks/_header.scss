@@ -1,0 +1,205 @@
+.header {
+    margin: 0 0 720px;
+    padding-bottom: 175px;
+    background-image: var(--bg-img-header);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-inner {
+    position: relative;
+}
+
+.btn-darkk-mobile {
+    display: none;
+}
+
+.header-top {
+    margin: 0 0 157px;
+    padding: 50px 0 0;
+}
+
+.nav__link {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 155%;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    transition: all 0.2s ease;
+
+    &:hover {
+        color: #FFFFFF;
+        letter-spacing: 0.01em;
+        text-decoration-line: underline;
+        opacity: 0.5;
+        transition: all 0.2s ease;
+    }
+}
+
+.nav__item {
+    margin-left: 40px;
+
+    &:nth-child(1) {
+        margin-left: 0;
+    }
+}
+
+.btn-darkk {
+    margin-left: 30px;
+}
+
+.burger-btn {
+    display: none;
+}
+
+.header-content {
+    width: 100%;
+    max-width: 737px;
+}
+
+.header-content-two {
+    width: 100%;
+    max-width: 471px;
+}
+
+.header-bottom__title {
+    margin: 0 0 24px;
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+
+.header-bottom__text {
+    margin: 0 0 40px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 155%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.header-bottom__link {
+    padding: 17.5px 19px;
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 155%;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
+    border-radius: 32px;
+    transition: all 0.2s ease;
+
+    &:nth-child(1) {
+        padding: 17.5px 50px;
+        margin-right: 33px;
+    }
+
+    &:hover {
+        color: #FFFFFF;
+        background: #FF007A;
+        transition: all 0.2s ease;
+    }
+}
+
+
+.header-macbook {
+    position: absolute;
+    top: 615px;
+    left: 145px;
+    max-width: 996px;
+    height: 582px;
+}
+
+@media only screen and (max-width:576px) {
+
+    .header{
+        margin: 0 0 160px;
+    }
+
+    .header-top {
+        margin: 0 0 80px;
+    }
+
+    .header__logo-link {
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    .nav,
+    .btn-darkk {
+        display: none;
+    }
+
+    .burger-btn,
+    .btn-darkk-mobile {
+        display: block;
+    }
+
+    .burger-btn {
+        margin-left: auto;
+    }
+
+    .header-bottom__title {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .header-bottom__text {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .header-macbook {
+        max-width: 343px;
+        height: 200px;
+    }
+
+    .header-bottom__link {
+        margin-bottom: 10px;
+        font-size: 16px;
+
+        &:nth-child(1) {
+            margin-right: 0;
+        }
+
+        &:last-child {
+            padding: 12px 0;
+        }
+    }
+
+    .header-content__link {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .header-macbook {
+        left: 0px;
+    }
+}
+
+@media only screen and (max-width:355px) {
+    .header-macbook {
+        max-width: 300px;
+        top: 652px;
+        left: 8px;
+    }
+}
+
+@media only screen and (max-width:340px) {
+    .header-macbook {
+        max-width: 300px;
+        top: 652px;
+        left: -10px;
+    }
+}
